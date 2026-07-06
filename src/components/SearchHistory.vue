@@ -20,7 +20,8 @@ const { searchHistory } = storeToRefs(profileStore)
           </h2>
         </section>
         <small>
-          {{ item.company }} <span aria-hidden="true" v-if="item.company">|</span>
+          {{ item.company }}
+          <span aria-hidden="true" v-if="item.company && item.location">|</span>
           {{ item.location }}
         </small>
       </div>
