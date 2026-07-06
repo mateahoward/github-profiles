@@ -48,7 +48,7 @@
 
 .profile-handle {
   font-size: 0.95rem;
-  color: var(--$primary);
+  color: $primary;
   text-decoration: none;
   font-weight: 500;
 }
@@ -133,7 +133,7 @@
   display: block;
   font-size: 1.25rem;
   font-weight: 700;
-  color: var(--$primary);
+  color: $primary;
   margin-bottom: 0.1rem;
 }
 
