@@ -21,7 +21,7 @@ const formattedDate = computed(() => {
 
 <template>
   <div v-if="userData" class="profile-card">
-    <header class="profile-header">
+    <section class="profile-header">
       <div class="avatar-container">
         <img :src="userData.avatar_url" alt="" class="avatar" />
       </div>
@@ -29,7 +29,7 @@ const formattedDate = computed(() => {
       <a :href="userData.html_url" target="_blank" rel="noopener" class="profile-handle">
         View on GitHub
       </a>
-    </header>
+    </section>
 
     <p v-if="userData.bio" class="profile-bio">
       {{ userData.bio }}
