@@ -12,9 +12,6 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
-  build: {
-    outDir: 'docs', // for githup pages purposes
-  },
   css: {
     preprocessorOptions: {
       scss: {
